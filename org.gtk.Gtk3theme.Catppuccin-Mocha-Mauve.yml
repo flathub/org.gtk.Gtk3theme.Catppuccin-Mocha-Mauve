@@ -18,8 +18,8 @@ modules:
       - appstream-compose --basename=org.gtk.Gtk3theme.Catppuccin-Mocha-Mauve --prefix=${FLATPAK_DEST} --origin=flatpak org.gtk.Gtk3theme.Catppuccin-Mocha-Mauve
     sources:
       - type: file
-        url: https://github.com/catppuccin/gtk/releases/download/v-0.2.7/Catppuccin-Mocha-Mauve.zip
+        url: https://github.com/catppuccin/gtk/releases/download/v0.3.0/Catppuccin-Mocha-Mauve.zip
         dest-filename: "theme.zip"
-        sha256: 202a0fbba598024b8dad4c5e5323da91a0a4547bf5eae2f786daf17ac6e35114
+        sha256: 0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5
       - type: file
         path: org.gtk.Gtk3theme.Catppuccin-Mocha-Mauve.appdata.xml
